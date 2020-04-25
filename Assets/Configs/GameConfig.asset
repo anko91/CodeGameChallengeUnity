@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c984b9a5b9f85e4c8d13957d9d8f19d, type: 3}
+  m_Name: GameConfig
+  m_EditorClassIdentifier: 
+  _colors:
+  - {r: 1, g: 0.514151, b: 0.514151, a: 1}
+  - {r: 0.5707547, g: 0.6498705, b: 1, a: 1}
+  - {r: 0.52113396, g: 1, b: 0.48584908, a: 1}
+  - {r: 0.9895283, g: 1, b: 0.4764151, a: 1}
+  maxVelocity: 3
+  maxRotationAngle: 3
+  projectileVelocity: 5
+  projectileLifeTime: 3
+  shootingReloadTime: 1
+  maxHealth: 100
+  respawnTime: 3
+  projectileDamage: 10
+  fragScore: 90
+  bonusPrefabs:
+  - {fileID: 1502682698984873826, guid: e0ada8ea8afd1814ba416883ec2b08e3, type: 3}
+  - {fileID: 4998987545639993942, guid: 89017dfc68fa434428f80ac0a268d706, type: 3}
+  - {fileID: 5438115910778877090, guid: 7433a5ca86eb3154087a094f6ecfa0cb, type: 3}
+  - {fileID: 5353183830022534125, guid: 1aa9e426c1cf754409c4069664d9f81f, type: 3}
+  - {fileID: 5353183830022534125, guid: ce398d394f5312f47a264beec78cf12d, type: 3}
+  - {fileID: 1502682698984873826, guid: e0ada8ea8afd1814ba416883ec2b08e3, type: 3}
+  - {fileID: 1502682698984873826, guid: e0ada8ea8afd1814ba416883ec2b08e3, type: 3}
+  - {fileID: 1502682698984873826, guid: e0ada8ea8afd1814ba416883ec2b08e3, type: 3}
+  - {fileID: 1502682698984873826, guid: e0ada8ea8afd1814ba416883ec2b08e3, type: 3}
+  maxBonuses: 15
+  minBonusSpawnTime: 1
+  maxBonusSpawnTime: 3
+  gameTime: 120
